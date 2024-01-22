@@ -21,14 +21,7 @@ class StudentProfile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ignore: unnecessary_null_comparison
-    Widget imageWidget = image != null
-        ? ClipOval(
-            child: Image.file(File(image),width: 50,height: 50,fit: BoxFit.cover,),
-          )
-        : Container();
-
-        // ignore: unnecessary_null_comparison
+   
         Widget imageProfileWidget = image != null
         ? ClipOval(
             child:  Image.file(File(image),width: 200,height: 200,fit: BoxFit.cover,),
@@ -38,7 +31,6 @@ class StudentProfile extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: ListTile(
-          leading: imageWidget,
           title: Text(name, style: const TextStyle(fontSize: 25,color: Colors.white ,fontFamily: 'Raleway-VariableFont_wght',fontWeight: FontWeight.bold),),
         ),
       ),
