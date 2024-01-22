@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
       await context.read<ScreenProvider>().getStudents();
       // ignore: use_build_context_synchronously
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (ctx){
-        return HomeScreen();
+        return const HomeScreen();
       }));
     });
     return  Scaffold(
