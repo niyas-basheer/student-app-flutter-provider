@@ -167,6 +167,7 @@ class AddStudent extends StatelessWidget {
                               backgroundColor: Colors.green,
                               behavior: SnackBarBehavior.floating,
                             ));
+                            Navigator.of(context).pop();
                           } else if (screenProvider.image.isEmpty) {
                             ScaffoldMessenger.of(context)
                                 .showSnackBar(const SnackBar(
