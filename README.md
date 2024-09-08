@@ -8,9 +8,6 @@ A Flutter application for managing student records. It uses `Provider` for state
 - Data persistence using `Hive` for local storage.
 - State management using `Provider`.
 
-## Screenshots
-(Add your app screenshots here)
-
 ## Technologies Used
 - **Flutter**: Frontend framework for building the app.
 - **Provider**: Used for state management.
