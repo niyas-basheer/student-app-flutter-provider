@@ -27,5 +27,5 @@ A Flutter application for managing student records. It uses `Provider` for state
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/student-record-app.git
+   git clone https://github.com/niyas-basheer/student-app-flutter-provider.git
 
